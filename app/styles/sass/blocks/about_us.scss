@@ -1,0 +1,38 @@
+.section-about-us{
+    .col-text-bacground{
+        .text-background{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            flex-direction: column;
+            margin-bottom: 15px;
+
+            background: url('../../../images/dist/scale_1200.png') no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            background-position: 100% 0;
+            background-size: cover;
+            .text{
+                line-height: 1;
+                font-weight: 900;
+                font-size: 140px;
+            }
+            .text-size-xxl{
+
+            }
+        }
+    }
+    .col-about-us-heading{
+        h2{
+            text-align: end;
+            padding-left: 40px;
+        }
+    }
+    .col-about-us-info{
+        p{
+           margin-bottom: 20px;
+           line-height: 1.3; 
+        }
+    }
+}

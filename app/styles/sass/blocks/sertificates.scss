@@ -1,0 +1,40 @@
+.section-certificates{
+    .col-bg{
+        background-color: $blue;
+    }
+    .col-sertificates-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .theme-heading{
+            padding-right: 40%;
+            color: $white;
+            text-align: left;
+            padding-left: 15px;
+            font-size: 32px;
+        }
+        a{
+            padding-left: 15px;
+        }
+    }
+    .col-sertificates-content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .list-certificates{
+            -moz-column-count: 2; /* Firefox */
+            -webkit-column-count: 2; /* Safari and Chrome */
+            column-count: 2;
+            list-style-type: decimal;
+            padding: 0;
+            margin: 0;
+            .item{
+                color: $white;
+                padding: 10px 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
