@@ -1,0 +1,18 @@
+.section-advantages{
+    .col-advantages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .advantages-wrap{
+            img{
+                margin-bottom: 20px;
+            }
+            h5{
+                padding-right: 40%;
+            }
+            p{
+                padding-right: 40%;
+            }
+        }
+    }
+}

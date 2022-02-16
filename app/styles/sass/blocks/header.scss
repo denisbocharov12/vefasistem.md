@@ -1,8 +1,10 @@
 header{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    position: sticky;
+    //height: 70px;
+    top: 0;
+    z-index: 99;
     .section_header{
-      position: sticky;
-      height: 70px;
-      top: 0;
       display: flex;
       align-items: center;
       background-color: $white;
@@ -56,6 +58,7 @@ header{
         }
         .header-widjet-element.header-media-menu{
           display: none;
+          margin-right: 5px;
           .btn-theme-simple{
             padding: 10px;
           }
@@ -81,9 +84,6 @@ header{
             margin-left: 10px;
             line-height: 1;
           }
-        }
-        p{
-          margin-bottom: 0;
         }
         .header-link{
           color: $black;
@@ -136,5 +136,6 @@ header{
           }
         }
        }
+       
     }
 }
