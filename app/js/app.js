@@ -233,9 +233,9 @@ Fancybox.bind('[data-fancybox="gallery"]', {
 $(document).ready(function(){
 
 });
-$(function() {
-  $('a.scroll-to-btn[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 300, 'linear');
-  });
-});
+// $(function() {
+//   $('a.scroll-to-btn[href*=#]').on('click', function(e) {
+//     e.preventDefault();
+//     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 300, 'linear');
+//   });
+// });
